@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePage">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Night_Blue"
+        android:fontFamily="@font/istok_web_bold_italic"
+        android:text="Welcome to\n Vaishnavi's\n Knowledge Hub"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:layout_centerInParent="true">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/letsGoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeText"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/istok_web"
+        android:text="Lets Go!"
+        android:padding="20dp"
+        android:textColor="@color/white">
+
+    </Button>
+
+</RelativeLayout>
